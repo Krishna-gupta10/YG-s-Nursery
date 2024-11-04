@@ -1,0 +1,76 @@
+body {
+  background-image: url(photo.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.landing-container {
+  display: flex;
+  gap: 30vh;
+  justify-content: center;
+  color: white;
+  padding-top: 40vh;
+}
+
+.introduction {
+  width: 50%;
+  text-align: justify;
+}
+
+.redirect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar {
+  background-color: green;
+  height: 15vh;
+  color: white;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  background-color: white;
+  padding: 10vh;
+  padding-top: 20vh;
+}
+
+.store-container {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6vh;
+  width: 80%;
+}
+
+.card {
+  width: 40vh;
+  height: max-content;
+}
+
+.card-image {
+  aspect-ratio: 3/2;
+}
